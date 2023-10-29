@@ -1,0 +1,225 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #c09ab7;
+    color: white;
+    padding: 10px 0;
+}
+
+nav .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+nav .menu ul {
+    list-style-type: none;
+}
+
+nav .menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav .menu ul li a.tbl-biru {
+    background-color: #910966;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content styles */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Home section styles */
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#home .p {
+    width: 50%;
+}
+
+#home .kolom {
+    width: 50%;
+    padding: 20px;
+}
+
+#home h2 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+#home p {
+    margin-top: 10px;
+}
+
+#home a.tbl-pink {
+    background-color: #412e3d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Courses section styles */
+#courses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#courses .kolom {
+    width: 50%;
+    padding: 20px;
+}
+
+#courses h2 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+#courses p {
+    margin-top: 10px;
+}
+
+#courses a.tbl-biru {
+    background-color: #412e3d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Tutors section styles */
+#tutors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#tutors .kolom {
+    width: 50%;
+    padding: 20px;
+}
+
+#tutors h2 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+#tutors p {
+    margin-top: 10px;
+}
+
+#tutors .tutor-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#tutors .kartu-tutor {
+    text-align: center;
+}
+
+#tutors .kartu-tutor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+/* Partners section styles */
+#partners {
+    margin-top: 20px;
+}
+
+#partners .kolom {
+    padding: 20px;
+}
+
+#partners h2 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+#partners p {
+    margin-top: 10px;
+}
+
+#partners .partner-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#partners .kartu-partner img {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #c09ab7;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.footer .footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
+/* Add more specific styles as needed */
